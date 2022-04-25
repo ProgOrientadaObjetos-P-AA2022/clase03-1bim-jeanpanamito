@@ -13,12 +13,13 @@ public class Ejecutable {
         
         // Se asigna valores particulares al objeto
         hospital.nombre = "Isidro Ayora";
-        hospital.numeroCamas = 100;
-        hospital.presupuesto = 560340.43;
+        hospital.numeroCamas = 1145567;
+        hospital.presupuesto = 56045;
+        hospital.valor= 10;
         
         // Se presenta valores en pantalla
-        System.out.printf("%s - %d - %.2f\n", hospital.nombre,
-                hospital.numeroCamas, hospital.presupuesto);
+        System.out.printf("Nombre: %s - Camas: %d - Presupuesto: %.2f Valor: %d\n", hospital.nombre,
+                hospital.numeroCamas, hospital.presupuesto,hospital.valor);
         
         // System.out.println(hospital.nombre + "-" + hospital.numeroCamas);
     }

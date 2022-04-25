@@ -19,7 +19,7 @@ public class Ejecutable03 {
         
         h1.establecerNombre("Vaca Ortíz");
         h2.establecerNombre("Militar");
-        h3.establecerNombre("Manuel IM");
+        //h3.establecerNombre("Manuel IM");
         
         System.out.printf("%s - %d - %.2f\n", h3.obtenerNombre(), 
                 h3.obtenerNumeroCamas(), h3.obtenerPresupuesto());

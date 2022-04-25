@@ -21,6 +21,7 @@ public class Ejecutable01 {
         hospital.establecerNumeroCamas(100);
         // hospital.presupuesto = 560340.43;
         hospital.establecerPresupuesto(5603.43);
+        hospital.establecerDosis(9.981923);
         
         // Se presenta valores en pantalla, rescatando los valores
         // que se necesita a través de los métodos obtener del
@@ -29,8 +30,16 @@ public class Ejecutable01 {
         // System.out.printf("%s - %d - %.2f\n", hospital.nombre,
         //         hospital.numeroCamas, hospital.presupuesto);
         
-        System.out.printf("%s - %d - %.2f\n", hospital.obtenerNombre(),
-                hospital.obtenerNumeroCamas(), hospital.obtenerPresupuesto());
+        System.out.printf("%s - %d - %.2f - %f\n", hospital.obtenerNombre(),
+                hospital.obtenerNumeroCamas(), hospital.obtenerPresupuesto(),
+                hospital.obtenerDosis());
+        
+        hospital.establecerNumeroCamas(200);
+        System.out.println("----------------------------------------------");
+        System.out.printf("%s - %d - %.2f - %f\n", hospital.obtenerNombre(),
+                hospital.obtenerNumeroCamas(), hospital.obtenerPresupuesto(),
+                hospital.obtenerDosis());
+        
         
     }
 }
